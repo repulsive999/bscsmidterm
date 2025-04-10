@@ -82,11 +82,7 @@ nav a:hover {
     border-bottom: 3px solid #8B5E3C;
 }
 
-
-
-
 /* Content Section */
-
 
 .hero-content {
     flex: 1;
@@ -134,7 +130,6 @@ nav a:hover {
     height: auto;
     border: 1px solid black;
 }
-
 
 
 /* Sample Works */
