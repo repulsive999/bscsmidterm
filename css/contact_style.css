@@ -1,0 +1,164 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 3px solid #8B5E3C;
+    color: black;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px;
+}
+
+/* Logo */
+
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo figure img {
+    width: 100%;
+    max-width: 128px;
+    height: auto;
+}
+
+#logo h1 {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/* Navbar */
+#active a
+{
+    background-color: #EFDCAB;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #EFDCAB;
+}
+
+body h2
+{
+    padding: 50px 50px 10px 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+form {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #EFDCAB;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+button:hover {
+    background-color: #b49e66;
+  }
+
+
+
+/* Footer */
+footer {
+    background-color: #8B5E3C;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #8B5E3C;
+}
+
+.footer-content
+{
+    display:inline-flex;
+    align-items: center;
+}
+
+.footer-content img
+{
+    width: 20px;
+    max-width: 20px;
+    height: auto;
+    
+}
+
+.footer-content p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid black;
+    font-size: 14px;
+    padding-top: 20px;
+}
